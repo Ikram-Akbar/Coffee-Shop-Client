@@ -1,16 +1,14 @@
 
-
 const Home = () => {
     return (
         <div>
-            <h1>this is home </h1>
-            <button className="btn">Button</button>
-            <button className="btn btn-neutral">Neutral</button>
-            <button className="btn btn-primary">Primary</button>
-            <button className="btn btn-secondary">Secondary</button>
-            <button className="btn btn-accent">Accent</button>
-            <button className="btn btn-ghost">Ghost</button>
-            <button className="btn btn-link">Link</button>
+            <div className="form-control w-full max-w-xs">
+                <label className="label">
+                    <span className="label-text">What is your name?</span>
+                </label>
+                <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
+                
+            </div>
         </div>
     );
 };
